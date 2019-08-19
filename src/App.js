@@ -10,11 +10,13 @@ import AuthorCard from "./AuthorCard";
 function App() {
   return (
     <div id="app" className="container-fluid">
-    <div className="row">
-      <Sidebar/>
-      <AuthorList authors={authors}/>
+      <div className="row">
+        <Sidebar />
+        <AuthorList authors={authors} />
+        <AuthorCard />
       </div>
-      </div>
+    </div>
+  );
 }
 
 export default App;
